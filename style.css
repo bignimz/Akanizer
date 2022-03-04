@@ -118,8 +118,16 @@
           position: absolute;
           top: -120px;
           left: 60px;
-          
+          transition: linear ease-in .4s;
+          animation: slide-in;
     }
+
+    @keyframes slide-in {
+          10% {
+                
+          }
+    }
+
 
     .main-wrapper {
           display: flex;
@@ -203,6 +211,17 @@
           height: 350px;
           background-color: #fff;
           border-radius: 10px;
+          align-items: center;
+    }
+
+    .hooray-img {
+          width: 60px;
+          height: 60px;
+          margin-right: 20px;
+    }
+
+    .hooray {
+          font-size: 42px;
     }
 
     .akan-description {
