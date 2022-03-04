@@ -5,3 +5,35 @@ Akanizer is an Application that will generate for you an Akan name based on spec
 ## What is an Akan name you might ask?
 
 Well, Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.
+
+### List of Ghanaian Day Names are as follows:
+
+<strong>Male</strong>
+Sunday: Kwasi
+
+Monday: Kwadwo
+
+Tuesday: Kwabena
+
+Wednesday: Kwaku
+
+Thursday:  Yaw
+
+Friday: Kofi
+
+Saturday: Kwame
+
+<strong>Female</strong>
+Sunday: Akosua
+
+Monday: Adwoa
+
+Tuesday: Abenaa
+
+Wednesday: Akua
+
+Thursday:  Yaa
+
+Friday: Afua
+
+Saturday: Ama
