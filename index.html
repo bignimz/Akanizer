@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="images/akin-fav.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/akin-fav.png" type="image/x-icon" />
     <title>Akanizer</title>
 
     <!-- Custom CSS Link -->
@@ -18,36 +18,44 @@
 
     <!-- Main Body -->
     <main>
-
-      <h2 class="app-description">
-        Hello There Friend! My name is Akanizer, I help people know their Akan names by calculating
-        the day in which they were born, e.g. Monday, based on the date, month and year they provide  me.
-      </h2>
+      
       <div class="main-wrapper container">
+        <h2 class="app-description">
+          Hello There Friend! My name is Akanizer, I help people know their Akan
+          names by calculating the day in which they were born, e.g. Monday, based
+          on the date, month and year they provide me.
+        </h2>
+
         <div class="akin-image">
-          <img src="images/Akinizer.png" alt="">
+          <img src="images/Akinizer.png" alt="" />
         </div>
 
         <div class="form-wrapper">
-          <input type="number" id="date" class="form-input" placeholder="Enter Date of Birth e.g. 01">
-          <input type="number" id="month" class="form-input" placeholder="Enter Month of Birth e.g. 03">
-          <input type="number" id="year" class="form-input" placeholder="Enter Year of Birth e.g. 1990">
+          <input
+            type="number" id="date" min="01" max="31" class="form-input" placeholder="Enter Date of Birth e.g. 01"/>
+          <input type="number" id="month" min="01" max="12" class="form-input" placeholder="Enter Month of Birth e.g. 03"/>
+          <input type="number" id="year" min="1920" max="2022" class="form-input" placeholder="Enter Year of Birth e.g. 1990"/>
 
-          <label for="gender">Select Your Gender: </label><br>
+          <label for="gender">Select Your Gender: </label><br />
           <div class="checkboxes">
-            <input type="checkbox" id="gender" name="male" class="check"> Male
-            <input type="checkbox" id="gender" name="female" class="check"> Female             
+            <input type="radio" id="male" name="gender" class="check" value="Male"/>
+            Male
+            <input type="radio" id="female" name="gender" class="check" />
+            Female
           </div>
           <button class="btn akan-btn">Akanize Me</button>
         </div>
-        <div class="results-section">
-
-        </div>     
+        <div class="results-section"></div>
       </div>
     </main>
 
     <!-- Footer -->
     <footer class="footer">
+      <p class="akan-description text-center">
+        Akan names are derived from Ghanian culture. Frequently in Ghana,<br>
+        children are given their first name as a 'day name' which corresponds to
+        the day in the week they were born.
+      </p>
       <p class="copyright">
         Copyright 2022 Akanizer. Designed by: Nimrod Musungu
       </p>

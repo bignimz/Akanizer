@@ -1,5 +1,9 @@
 /* Global Settings */
 
+:root {
+      --clip-path: clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 19% 78%, 11% 100%, 11% 76%, 0% 75%);
+}
+
 * {
       margin: 0;
       padding: 0;
@@ -74,7 +78,7 @@
     .header {
           width: 100%;
           padding: 20px 0px;
-          background-color: #333;
+          background-color: #686968;
           color: #fff;
     }
 
@@ -88,19 +92,32 @@
     main {
           width: 100%;
           height: 100%;
-          background-color: #cfcfcf;
+          background: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0,.9)), url("images/Akinizer.png");
+          background-position: top;
+          background-size: contain;
+          background-repeat: no-repeat;
           padding: 30px 0px;
           position: relative;
     }
     
     .app-description {
           font-size: 20px;
-          font-weight: normal;
+          font-weight: 600;
           text-align: center;
           width: 900px;
           margin: 0 auto;
-          line-height: normal;
+          line-height: 40px;
           margin-bottom: 30px;
+          color: #333;
+          clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 19% 78%, 11% 100%, 11% 76%, 0% 75%);
+          background-color: #4ad;
+          padding: 20px;
+          border-radius: 10px;
+          width: 650px;
+          height: 150px;
+          position: absolute;
+          top: -120px;
+          left: 60px;
     }
 
     .main-wrapper {
@@ -108,6 +125,8 @@
           flex-wrap: wrap;
           justify-content: space-between;
           align-items: center;
+          position: relative;
+          margin-top: 110px;
     }
 
     .akin-image {
@@ -124,6 +143,7 @@
     label {
           font-size: 22px;
           margin-bottom: 10px;
+          color: #fff;
     }
 
     .form-input {
@@ -134,22 +154,45 @@
           margin-right: 20px;
           background-color: #fff;
           margin-bottom: 20px;
+          font-size: 18px;
     }
 
-    .input {
-          
+    .checkboxes {
+          color: #fff;
+          margin-bottom: 10px;
     }
+
+    input[type = "radio"] {
+          width: 20px;
+          height: 20px;
+          margin-right: 10px;
+    }
+
+    input[type = "checkbox"]:last-child {
+          margin-left: 10px;
+    }
+
+    input[type = "checkbox"]::after {
+            color: #fff;
+    }
+
+
 
     .check {
-          font-size: 20px;
+          font-size: 22px;
+          color: #fff;
     }
 
     .akan-btn {
-          background-color: #333;
+          background-color: #4ad;
           color: white;
           width: 300px;
           font-size: 22px;
           text-transform: uppercase;
+    }
+
+    .akan-btn:hover {
+          background-color: #21749e;
     }
 
     .results-section {
@@ -161,15 +204,30 @@
           border-radius: 10px;
     }
 
+    .akan-description {
+          padding: 0px 20px;
+          font-size: 18px;
+          color: #fff;
+          line-height: 30px;
+          margin-bottom: 30px;
+    }
+
 
     /* FOOTER SECTION */
     .footer {
           width: 100%;
           text-align: center;
           padding: 15px 0px;
-          background-color: black;
+          background-color: #686968;
           color: #fff;
-          position: absolute;
-          bottom: 0px;
-          left: 0px;
+    }
+
+
+    /* MEDIA QUERIES */
+    @media screen and (max-width: 320px) {
+
+      .app-description {
+            clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 19% 78%, 11% 100%, 11% 76%, 0% 75%);
+            width: 350px;
+      }
     }
