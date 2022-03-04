@@ -1,6 +1,6 @@
 # Akanizer
 
-Akanizer is an Application that will generate for you an Akan name based on specific data you provide, that is. Date of Birth and Gender, then it calculates the day of the week they were born and then depending on their gender outputs their Akan Name. 
+Akanizer is an Application that will generate for you an Akan name based on specific data you provide, that is. Date of Birth and Gender, then it calculates the day of the week you were born and then depending on your gender outputs your Akan Name. 
 
 ## What is an Akan name you might ask?
 
