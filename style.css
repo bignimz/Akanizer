@@ -1,0 +1,167 @@
+/* Global Settings */
+
+* {
+      margin: 0;
+      padding: 0;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+        transition: all ease-in .4s;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 18px;
+        color: #333;
+    }
+    
+    div {
+        margin: 0;
+        padding: 0;
+    }
+    
+    h1, h2, h3, h4 {
+        font-family: 'Roboto Condensed', sans-serif;
+        line-height: 70px;
+        padding: 0;
+        margin: 0;
+    }
+    
+    p {
+        margin: 0;
+        padding: 0;
+        line-height: 25px;
+    }
+    
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #333;
+    }
+    
+    /* RE-USABLE STYLES */
+    
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        padding: 40px 0px;
+    }
+    
+    .text-center {
+        text-align: center;
+    }
+    
+    .btn {
+        padding: 20px 40px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    /* HEADER STYLES */
+    .header {
+          width: 100%;
+          padding: 20px 0px;
+          background-color: #333;
+          color: #fff;
+    }
+
+    .logo {
+          font-size: 42px;
+          text-align: center;
+          text-transform: uppercase;
+    }
+
+    /* MAIN SECTION */
+    main {
+          width: 100%;
+          height: 100%;
+          background-color: #cfcfcf;
+          padding: 30px 0px;
+          position: relative;
+    }
+
+    .app-description {
+          font-size: 20px;
+          text-align: center;
+          width: 900px;
+          margin: 0 auto;
+          line-height: normal;
+    }
+
+
+
+    .form-wrapper {
+          display: block;
+          width: 80%;
+          /* margin: 0 auto; */
+    }
+
+    label {
+          font-size: 22px;
+          margin-bottom: 40px;
+    }
+
+    .form-input {
+          width: 250px;
+          padding: 20px;
+          border: none;
+          border-radius: 5px;
+          margin-right: 20px;
+          background-color: #fff;
+          margin-bottom: 20px;
+    }
+
+    .input {
+          width: 300px;
+          padding: 20px;
+          border: none;
+          border-radius: 5px;
+          background-color: #fff;
+          margin-bottom: 20px;
+    }
+
+    .form-input option {
+          padding: 20px;
+    }
+
+    .akan-btn {
+          background-color: #333;
+          color: white;
+          width: 300px;
+          font-size: 22px;
+          text-transform: uppercase;
+    }
+
+    .results-section {
+          width: 80%;
+          margin: 0 auto;
+          height: 250px;
+          background-color: #fff;
+          border-radius: 10px;
+    }
+
+
+    /* FOOTER SECTION */
+    .footer {
+          width: 100%;
+          text-align: center;
+          padding: 15px 0px;
+          background-color: black;
+          color: #fff;
+          position: absolute;
+          bottom: 0px;
+          left: 0px;
+    }
