@@ -32,9 +32,9 @@
 
         <div class="form-wrapper">
           <input
-            type="number" id="date" min="01" max="31" class="form-input" placeholder="Enter Date of Birth e.g. 01"/>
-          <input type="number" id="month" min="01" max="12" class="form-input" placeholder="Enter Month of Birth e.g. 03"/>
-          <input type="number" id="year" min="1920" max="2022" class="form-input" placeholder="Enter Year of Birth e.g. 1990"/>
+            type="number" id="date" min="01" max="31" class="form-input" placeholder="Enter Date of Birth e.g. 01" required/>
+          <input type="number" id="month" min="01" max="12" class="form-input" placeholder="Enter Month of Birth e.g. 03" required/>
+          <input type="number" id="year" min="1920" max="2022" class="form-input" placeholder="Enter Year of Birth e.g. 1990" required/>
 
           <label for="gender">Select Your Gender: </label><br />
           <div class="checkboxes">
@@ -43,10 +43,13 @@
             <input type="radio" id="female" name="gender" class="check" />
             Female
           </div>
-          <button class="btn akan-btn">Akanize Me</button>
+          <button class="btn akan-btn" id="submit">Akanize Me</button>
         </div>
         <div class="results-section">
           <img src="images/akin-fav.png" alt="" class="hooray-img"><span class="hooray">Hooray! </span>
+          <p class="text-center">Your Akan name is:</p>
+          <h3 class="akan-name text-center">"Kwadwo"</h3>
+          <p class="results"></p>
         </div>
       </div>
     </main>

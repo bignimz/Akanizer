@@ -1,3 +1,100 @@
+'use strict';
+
+// Declare user input variable
+
+const date = document.getElementById('date').value;
+const month = document.getElementById('month').value;
+const year = document.getElementById('year').value;
+const genders = document.getElementsByName('gender');
+const akanize = document.getElementById('submit');
+
+
+
+// Create variables to hold arrays of female names and male names
+
+const maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+
+// Create variable to hold array of days of the week
+const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
+// Function that checks whether the date entered is valid
+const dateOfBirth = function(){
+  date <= 0 || date > 31 ? alert('Enter Date between 1 and 31') : date;
+}
+
+// Function that checks whether the month entered is valid
+const monthOfBirth = function(){
+  month <= 0 || month > 12 ? alert('Enter month between 1 and 12') : month;
+}
+
+
+// Add an Event listener to the submit button
+akanize.addEventListener('click', function() {
+  const date = document.getElementById('date').value;
+  const month = document.getElementById('month').value;
+  const year = document.getElementById('year').value;
+  const genders = [document.getElementsByName('gender').some(c => c.checked)];
+
+
+  
+
+  alert(genders);
+  // alert(`Hello you were born on ${date} / ${month} / ${year}, and your gender is ${genderCheck}`);
+});
+
+
+
+
+akanize.addEventListener('click', function(){
+  // let radio_check_val = "";
+  // for (let i = 0; i < document.getElementsByName('gender').length; i++) {
+  //     if (document.getElementsByName('gender')[i].checked) {
+  //         console.log("this radio button was clicked: " + document.getElementsByName('gender')[i].value);
+  //         radio_check_val = document.getElementsByName('gender')[i].value;        
+  //     }        
+  // }     
+
+  // const gender = genders.forEach(function(gender){
+  //   if(genders.checked) return genders.value;
+  // });
+
+  const findgender = function(){
+    for (let gender of genders){
+      if (gender.checked){
+        const gender =  gender.value;
+      }
+      return gender;
+    }
+  }
+  
+
+  alert(gender);
+
+})            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function getAkanName () {
       let yearOfBirth = document.getElementById("year-input").value;
       let monthOfBirth = Number(document.getElementById("month-input").value);

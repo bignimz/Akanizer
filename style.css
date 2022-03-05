@@ -116,7 +116,7 @@
           width: 650px;
           height: 150px;
           position: absolute;
-          top: -500px;
+          top: -120px;
           left: 60px;
           transition: linear ease-in .4s;
           animation-name: slide-in;
@@ -152,6 +152,7 @@
           display: flex;
           flex-direction: column;
           justify-content: center;
+          margin-bottom: 20px;
     }
 
     label {
@@ -213,7 +214,7 @@
           width: 30%;
           margin: 0 auto;
           padding: 30px;
-          height: 350px;
+          height: auto;
           background-color: #fff;
           border-radius: 10px;
           align-items: center;
@@ -227,6 +228,16 @@
 
     .hooray {
           font-size: 42px;
+          margin-bottom: 30px;
+    }
+
+    .results-section p {
+          font-size: 24px;
+          margin: 30px 0px;
+    }
+
+    .akan-name {
+          font-size: 46px;
     }
 
     .akan-description {
