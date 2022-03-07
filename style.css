@@ -74,9 +74,9 @@
         cursor: pointer;
     }
 
-    .hidden {
+    /* .hidden {
           display: none;
-    }
+    } */
 
     /* HEADER STYLES */
     .header {
