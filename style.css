@@ -74,6 +74,10 @@
         cursor: pointer;
     }
 
+    .hidden {
+          display: none;
+    }
+
     /* HEADER STYLES */
     .header {
           width: 100%;
@@ -218,7 +222,6 @@
           background-color: #fff;
           border-radius: 10px;
           align-items: center;
-          display: none;
     }
 
     .hooray-img {
