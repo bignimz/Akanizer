@@ -218,6 +218,7 @@
           background-color: #fff;
           border-radius: 10px;
           align-items: center;
+          display: none;
     }
 
     .hooray-img {
