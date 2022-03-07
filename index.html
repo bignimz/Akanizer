@@ -32,7 +32,7 @@
 
         <div class="form-wrapper">
           <input
-            type="date" id="date" class="form-input"/>
+            type="date" id="date" class="form-input" required/>
 
           <label for="gender">Select Your Gender: </label><br />
           <div class="checkboxes">
@@ -43,11 +43,14 @@
           </div>
           <button class="btn akan-btn" id="submit">Akanize Me</button>
         </div>
-        <div class="results-section hidden" id="results">
-          <img src="images/akin-fav.png" alt="" class="hooray-img"><span class="hooray">Hooray! </span>
+        <div class="results-section" id="results">
+          <div id="hooray" class="hidden">
+            <img src="images/akin-fav.png" alt="" class="hooray-img"><span class="hooray">Hooray! </span>
+            <p class="day">You were born on <span id="day">Monday</span></p>
+          </div>
           <p class="text-center">Your Akan name is:</p>
-          <h3 class="akan-name text-center" id="akan-name"></h3>
-          <p id="results"></p>
+          <h3 class="akan-name text-center" id="akan">""</h3>
+          <!-- <p id="results"></p> -->
         </div>
       </div>
     </main>
