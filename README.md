@@ -58,6 +58,12 @@ git clone git@github.com:nimrod-musungu/Akanizer.git
 2. If the gender selected is Female, then the function checks the female names array and output the name based on the day index of the male names array.
 3. Then the Akan name of a user is displayed on the html document of the application.
 
+## Technologies Used 
+
+1. HTML for layout
+2. CSS for styling
+3. JavaScript for functionality
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
