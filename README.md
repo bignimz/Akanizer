@@ -43,7 +43,7 @@ Saturday: Ama
 Nimrod Musungu
 contact@nimrodmusungu.com
 
-## Installation
+## Setup
 
 To use this design and customize it for yourself, install to your local machine using the git clone command
 
@@ -51,6 +51,12 @@ To use this design and customize it for yourself, install to your local machine 
 git clone git@github.com:nimrod-musungu/Akanizer.git
 ```
 
+## Behavior Driven Development
+
+1. Once a user enters his / her birthday, selected their gender type and pressed enter, and event of click is listened to the submit button and if true, a function that converts the input data to akan names is fired.
+2. If the gender selected is Male, then the function checks the male names array and output the name based on the day index of the male names array.
+2. If the gender selected is Female, then the function checks the female names array and output the name based on the day index of the male names array.
+3. Then the Akan name of a user is displayed on the html document of the application.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
