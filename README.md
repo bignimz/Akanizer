@@ -37,3 +37,25 @@ Thursday:  Yaa
 Friday: Afua
 
 Saturday: Ama
+
+## Author
+
+Nimrod Musungu
+contact@nimrodmusungu.com
+
+## Installation
+
+To use this design and customize it for yourself, install to your local machine using the git clone command
+
+```bash
+git clone git@github.com:nimrod-musungu/Akanizer.git
+```
+
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
